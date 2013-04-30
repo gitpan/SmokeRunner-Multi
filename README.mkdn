@@ -4,15 +4,15 @@ SmokeRunner::Multi - Manage smoke tests across multiple branches/checkouts/proje
 
 # VERSION
 
-version 0.18
+version 0.19
 
 # SYNOPSIS
 
-  use SmokeRunner::Multi;
+    use SmokeRunner::Multi;
 
-  my $runner = SmokeRunner::Multi->new();
+    my $runner = SmokeRunner::Multi->new();
 
-  $runner->run_and_report_next_set();
+    $runner->run_and_report_next_set();
 
 # DESCRIPTION
 
@@ -34,11 +34,11 @@ This class provides the following methods:
 
 Creates a new object.
 
-## $smoker->next_set()
+## $smoker->next\_set()
 
 Returns the next test set to be run.
 
-## $smoker->run_and_report_next_set()
+## $smoker->run\_and\_report\_next\_set()
 
 This is a convenience method that can be used to run and report on the
 next test set in a single step.
@@ -46,14 +46,14 @@ next test set in a single step.
 As a convenience (mostly for testing), it returns the reporter object
 it creates internally.
 
-## $smoker->make_runner( ... )
+## $smoker->make\_runner( ... )
 
 This is a convenience method for making a
 `SmokeRunner::Multi::Runner` object of the class specified in the
 config file. Any parameters passed to this method will be passed on to
 the Runner class's constructor.
 
-## $smoker->make_reporter( ... )
+## $smoker->make\_reporter( ... )
 
 This is a convenience method for making a
 `SmokeReporter::Multi::Reporter` object of the class specified in the
@@ -74,8 +74,8 @@ See the other classes in this distribution for more information:
 
 # AUTHORS
 
-- Dave Rolsky, <autarch@urth.org>
-- Yanick Champoux <yanick@cpan.org>
+- Dave Rolsky <autarch@urth.org>
+- Yanick Champoux <yanick@cpan.org> [![endorse](http://api.coderwall.com/yanick/endorsecount.png)](http://coderwall.com/yanick)
 
 # COPYRIGHT AND LICENSE
 

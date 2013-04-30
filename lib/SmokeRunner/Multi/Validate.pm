@@ -3,7 +3,7 @@ BEGIN {
   $SmokeRunner::Multi::Validate::AUTHORITY = 'cpan:YANICK';
 }
 {
-  $SmokeRunner::Multi::Validate::VERSION = '0.18';
+  $SmokeRunner::Multi::Validate::VERSION = '0.19';
 }
 #ABSTRACT: Wrapper around Params::Validate for SmokeRunner::Multi
 
@@ -84,7 +84,7 @@ EOF
 
 1;
 
-
+__END__
 
 =pod
 
@@ -94,7 +94,7 @@ SmokeRunner::Multi::Validate - Wrapper around Params::Validate for SmokeRunner::
 
 =head1 VERSION
 
-version 0.18
+version 0.19
 
 =head1 SYNOPSIS
 
@@ -184,7 +184,7 @@ with this module.
 
 =item *
 
-Dave Rolsky, <autarch@urth.org>
+Dave Rolsky <autarch@urth.org>
 
 =item *
 
@@ -200,9 +200,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-
-
-

@@ -1,3 +1,5 @@
+use lib 'inc';
+use Devel::AssertOS qw[-MSWin32];
 
 use strict;
 use warnings;
@@ -7,23 +9,21 @@ use Module::Build 0.3601;
 
 my %module_build_args = (
   "build_requires" => {
-    "Carp" => 0,
     "File::Copy" => 0,
     "File::Find" => 0,
     "Module::Build" => "0.3601",
-    "Test::More" => "0.94",
-    "perl" => "5.004"
+    "Test::More" => "0.88"
   },
   "configure_requires" => {
     "Module::Build" => "0.3601"
   },
   "dist_abstract" => "Manage smoke tests across multiple branches/checkouts/projects",
   "dist_author" => [
-    "Dave Rolsky, <autarch\@urth.org>",
+    "Dave Rolsky <autarch\@urth.org>",
     "Yanick Champoux <yanick\@cpan.org>"
   ],
   "dist_name" => "SmokeRunner-Multi",
-  "dist_version" => "0.18",
+  "dist_version" => "0.19",
   "license" => "perl",
   "module_name" => "SmokeRunner::Multi",
   "recommends" => {},

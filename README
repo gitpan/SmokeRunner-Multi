@@ -3,7 +3,7 @@ NAME
     branches/checkouts/projects
 
 VERSION
-    version 0.18
+    version 0.19
 
 SYNOPSIS
       use SmokeRunner::Multi;
@@ -59,7 +59,7 @@ SEE ALSO
     SmokeRunner::Multi::Reporter, and SmokeRunner::Multi::Config.
 
 AUTHORS
-    *   Dave Rolsky, <autarch@urth.org>
+    *   Dave Rolsky <autarch@urth.org>
 
     *   Yanick Champoux <yanick@cpan.org>
 

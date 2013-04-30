@@ -14,35 +14,38 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 1eb0be4771a30eb9d616509ebead21f7e97031d4 Build.PL
-SHA1 a1b1087bab7466eb767ec303fc5fbe4b09ecf407 Changes
+SHA1 147efd9b5330adf75b100535fde9cde75994aa01 Build.PL
+SHA1 b8eaad539f20999c13ed9bd848ec9d81b3266e90 Changes
 SHA1 2dd89d23ae806e44b2546546e1b38f84c9c3a8bd INSTALL
-SHA1 abe82c1caab8b201fb82ca910844f7facff809d9 LICENSE
-SHA1 7114ac0cbadc8fcc6ddf22ab89bf8a6adb9e0e62 MANIFEST
+SHA1 f6ea34259ea06a3ea550bee5ce038437c4db6454 LICENSE
+SHA1 3f8eb1eadaf23cf40eb2ae0aaeaa5733c878b63f MANIFEST
 SHA1 fd9411d66c9441fbbceee066acf81538569af294 MANIFEST.SKIP
-SHA1 4e3296d60888b489fd0a931d5e414ea00a03e8c8 META.json
-SHA1 1abfb83b80d3efc7d47c1d1a73d8ec59c808b43b META.yml
+SHA1 68bc2adc402cdfdc615ce0b82bd933ba839f1f1f META.json
+SHA1 56c91ad5d147ab505f49f1b2402985c1cfd114ff META.yml
 SHA1 df0478d8986767f85aa931db6970b6f2be0ea073 MYMETA.json
 SHA1 64165d363758cc586698d6554366e1ec4c1bed7e MYMETA.yml
-SHA1 cd5d4a6999e855975746a608d8493989cc46ee27 Makefile.PL
-SHA1 a1e647dd348be21bcc822ab4043e3a859bf21d1c README
-SHA1 150b28dab4602f62920c6a6f0a5586083f47429a README.mkdn
-SHA1 35a3dfce6f6750257b8185c0d51885ff29bb456c lib/SmokeRunner/Multi.pm
-SHA1 fba8dcb48f834dd84b454022240842413b1413ed lib/SmokeRunner/Multi/Config.pm
-SHA1 f1cbab6d225e0ae882cc0dac624cc4f8f2d46322 lib/SmokeRunner/Multi/DBI.pm
-SHA1 8885bf6e0bebb4a99e94dc7675b727dbe839adf3 lib/SmokeRunner/Multi/Reporter.pm
-SHA1 1eb50522b9dc53082ff6c86f6a30109647ee99e0 lib/SmokeRunner/Multi/Reporter/Screen.pm
-SHA1 c428f7d36af582546a6b22798594f1005cd237c4 lib/SmokeRunner/Multi/Reporter/Smolder.pm
-SHA1 feda34991ade1c5e601880a649adfd1782090bd2 lib/SmokeRunner/Multi/Runner.pm
-SHA1 eb5a568d5808d5b839d4d70e3fb115093fb33173 lib/SmokeRunner/Multi/Runner/Prove.pm
-SHA1 7fc8284f0cf149fc5e8f9c538d554d029f29a7ca lib/SmokeRunner/Multi/Runner/TAPArchive.pm
-SHA1 e8b54c61fa509f6b64eabd1d5a8ecef3a6b699c9 lib/SmokeRunner/Multi/SafeRun.pm
-SHA1 8512ddbee5546b1d22fd4b55ce0386456068c36d lib/SmokeRunner/Multi/TestSet.pm
-SHA1 44bb8244d0dfcfe9e6e03868e60896caf9786c7f lib/SmokeRunner/Multi/TestSet/SVN.pm
-SHA1 52525aae0ae18b9f2d31fda8c3d440daadfbf6f4 lib/SmokeRunner/Multi/Validate.pm
+SHA1 359aeb3e67dfa11ca3b6ee860631615a246a220f Makefile.PL
+SHA1 d18064f30abb52861a2a0514cfa9782c83c5ddbc README
+SHA1 f05b9e9ae23f3dc59f9a114158f35079168f76ea README.mkdn
+SHA1 834f1086bc640d6e63cae621cf81570b8aa39c2b inc/Devel/AssertOS.pm
+SHA1 a0f8f975b3126e6e8054884a20ba40fd4f2dc585 inc/Devel/AssertOS/MSWin32.pm
+SHA1 3d38e8c3e58b463e625ae51e50fd0c7da07c3ffa inc/Devel/CheckOS.pm
+SHA1 90a0cd002cd0b7752b1d41c29bc744f2575e578f lib/SmokeRunner/Multi.pm
+SHA1 093366f659130dd8179abadb1572b59554d36109 lib/SmokeRunner/Multi/Config.pm
+SHA1 ce04229853d0914267ae16724748824f59b337c8 lib/SmokeRunner/Multi/DBI.pm
+SHA1 ab1f3a618aae5d6a5a8e2d8928186de57ec47b85 lib/SmokeRunner/Multi/Reporter.pm
+SHA1 4d3fbd77068f78d46bb9755be103dfb4233eaef5 lib/SmokeRunner/Multi/Reporter/Screen.pm
+SHA1 ce02ed65ece1d397e20c80afa9f25e9a1db6cc2b lib/SmokeRunner/Multi/Reporter/Smolder.pm
+SHA1 d1785b88724405b4e74c1fa029d5e23978172e72 lib/SmokeRunner/Multi/Runner.pm
+SHA1 2d13cf02101fa26f137f93f4e2fbef38e87cb084 lib/SmokeRunner/Multi/Runner/Prove.pm
+SHA1 4b628f98239e726d476eabd24fbc586100fd1ceb lib/SmokeRunner/Multi/Runner/TAPArchive.pm
+SHA1 2d53bd83d5976c10ac8a9ea56be0b6cd0bb8dc0f lib/SmokeRunner/Multi/SafeRun.pm
+SHA1 7bf6248c9c3daae4859bb3fef4277a081b60e427 lib/SmokeRunner/Multi/TestSet.pm
+SHA1 00bec81d4a02269d0a13af38b910780576edb365 lib/SmokeRunner/Multi/TestSet/SVN.pm
+SHA1 d43eb1b1446fa14d2cb11438e74c950184bcd7f7 lib/SmokeRunner/Multi/Validate.pm
 SHA1 4ea18368fb11f691fe0f9828bc0d87352d044096 script/smokerunner-multi
 SHA1 3cbe905b92fbc69d59a06031d5ce6c837b352aa2 t/00-compile.t
-SHA1 473906254ecd96009795d4b7fbc82fac48c03ecd t/000-report-versions.t
+SHA1 e8d0183887f2812db4cbac246563978e0d196beb t/000-report-versions-tiny.t
 SHA1 84170ecdd12b088d5d0ad742b2b754500a82a424 t/Config.t
 SHA1 e97047b17430947acccbb11f21016075f02006fd t/DBI.t
 SHA1 395d8afcc9b8182bd7e01bca3c964c48d8ad0bc1 t/Multi.t
@@ -65,7 +68,7 @@ SHA1 ec3f84bfd7a9ce3246e7592f4134100c6b5ce02b xt/release/unused-vars.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.11 (GNU/Linux)
 
-iEYEARECAAYFAlBWmDYACgkQ34Hwf+GwC4wOnQCfawKKopRaaM99sG5efaprnTGV
-dtMAn2LpvVmLnca3Kd3ALlymqtu9GQ7A
-=gq7N
+iEYEARECAAYFAlF/D/gACgkQ34Hwf+GwC4yQwgCfVFkr641G9CRsUhPxcUAa+nQJ
+/cQAoKH+jvO5Td7W/q48PqVhzGDcPrCp
+=R0hl
 -----END PGP SIGNATURE-----

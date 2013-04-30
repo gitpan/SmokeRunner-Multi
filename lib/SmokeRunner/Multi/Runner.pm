@@ -3,7 +3,7 @@ BEGIN {
   $SmokeRunner::Multi::Runner::AUTHORITY = 'cpan:YANICK';
 }
 {
-  $SmokeRunner::Multi::Runner::VERSION = '0.18';
+  $SmokeRunner::Multi::Runner::VERSION = '0.19';
 }
 #ABSTRACT: Base class for running test sets
 
@@ -36,7 +36,7 @@ sub run_tests
 
 1;
 
-
+__END__
 
 =pod
 
@@ -46,7 +46,7 @@ SmokeRunner::Multi::Runner - Base class for running test sets
 
 =head1 VERSION
 
-version 0.18
+version 0.19
 
 =head1 SYNOPSIS
 
@@ -113,7 +113,7 @@ with this module.
 
 =item *
 
-Dave Rolsky, <autarch@urth.org>
+Dave Rolsky <autarch@urth.org>
 
 =item *
 
@@ -129,8 +129,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-
-

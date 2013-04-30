@@ -1,11 +1,11 @@
 {
    "abstract" : "Manage smoke tests across multiple branches/checkouts/projects",
    "author" : [
-      "Dave Rolsky, <autarch@urth.org>",
+      "Dave Rolsky <autarch@urth.org>",
       "Yanick Champoux <yanick@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300010, CPAN::Meta::Converter version 2.120630",
+   "generated_by" : "Dist::Zilla version 4.300030, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -14,6 +14,11 @@
       "version" : "2"
    },
    "name" : "SmokeRunner-Multi",
+   "no_index" : {
+      "directory" : [
+         "inc"
+      ]
+   },
    "prereqs" : {
       "build" : {
          "requires" : {
@@ -23,6 +28,11 @@
       "configure" : {
          "requires" : {
             "Module::Build" : "0.3601"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "version" : "0.9901"
          }
       },
       "runtime" : {
@@ -56,66 +66,64 @@
       },
       "test" : {
          "requires" : {
-            "Carp" : "0",
             "File::Copy" : "0",
             "File::Find" : "0",
-            "Test::More" : "0.94",
-            "perl" : "5.004"
+            "Test::More" : "0.88"
          }
       }
    },
    "provides" : {
       "SmokeRunner::Multi" : {
          "file" : "lib/SmokeRunner/Multi.pm",
-         "version" : "0.18"
+         "version" : "0.19"
       },
       "SmokeRunner::Multi::Config" : {
          "file" : "lib/SmokeRunner/Multi/Config.pm",
-         "version" : "0.18"
+         "version" : "0.19"
       },
       "SmokeRunner::Multi::DBI" : {
          "file" : "lib/SmokeRunner/Multi/DBI.pm",
-         "version" : "0.18"
+         "version" : "0.19"
       },
       "SmokeRunner::Multi::Reporter" : {
          "file" : "lib/SmokeRunner/Multi/Reporter.pm",
-         "version" : "0.18"
+         "version" : "0.19"
       },
       "SmokeRunner::Multi::Reporter::Screen" : {
          "file" : "lib/SmokeRunner/Multi/Reporter/Screen.pm",
-         "version" : "0.18"
+         "version" : "0.19"
       },
       "SmokeRunner::Multi::Reporter::Smolder" : {
          "file" : "lib/SmokeRunner/Multi/Reporter/Smolder.pm",
-         "version" : "0.18"
+         "version" : "0.19"
       },
       "SmokeRunner::Multi::Runner" : {
          "file" : "lib/SmokeRunner/Multi/Runner.pm",
-         "version" : "0.18"
+         "version" : "0.19"
       },
       "SmokeRunner::Multi::Runner::Prove" : {
          "file" : "lib/SmokeRunner/Multi/Runner/Prove.pm",
-         "version" : "0.18"
+         "version" : "0.19"
       },
       "SmokeRunner::Multi::Runner::TAPArchive" : {
          "file" : "lib/SmokeRunner/Multi/Runner/TAPArchive.pm",
-         "version" : "0.18"
+         "version" : "0.19"
       },
       "SmokeRunner::Multi::SafeRun" : {
          "file" : "lib/SmokeRunner/Multi/SafeRun.pm",
-         "version" : "0.18"
+         "version" : "0.19"
       },
       "SmokeRunner::Multi::TestSet" : {
          "file" : "lib/SmokeRunner/Multi/TestSet.pm",
-         "version" : "0.18"
+         "version" : "0.19"
       },
       "SmokeRunner::Multi::TestSet::SVN" : {
          "file" : "lib/SmokeRunner/Multi/TestSet/SVN.pm",
-         "version" : "0.18"
+         "version" : "0.19"
       },
       "SmokeRunner::Multi::Validate" : {
          "file" : "lib/SmokeRunner/Multi/Validate.pm",
-         "version" : "0.18"
+         "version" : "0.19"
       }
    },
    "release_status" : "stable",
@@ -131,7 +139,7 @@
          "web" : "https://github.com/yanick/SmokeRunner-Multi"
       }
    },
-   "version" : "0.18",
+   "version" : "0.19",
    "x_authority" : "cpan:YANICK"
 }
 

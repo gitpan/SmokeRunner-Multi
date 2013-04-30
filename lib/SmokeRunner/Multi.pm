@@ -3,7 +3,7 @@ BEGIN {
   $SmokeRunner::Multi::AUTHORITY = 'cpan:YANICK';
 }
 {
-  $SmokeRunner::Multi::VERSION = '0.18';
+  $SmokeRunner::Multi::VERSION = '0.19';
 }
 #ABSTRACT: Manage smoke tests across multiple branches/checkouts/projects
 
@@ -96,7 +96,7 @@ sub _class_for
 
 1;
 
-
+__END__
 
 =pod
 
@@ -106,7 +106,7 @@ SmokeRunner::Multi - Manage smoke tests across multiple branches/checkouts/proje
 
 =head1 VERSION
 
-version 0.18
+version 0.19
 
 =head1 SYNOPSIS
 
@@ -180,7 +180,7 @@ L<SmokeRunner::Multi::Reporter>, and L<SmokeRunner::Multi::Config>.
 
 =item *
 
-Dave Rolsky, <autarch@urth.org>
+Dave Rolsky <autarch@urth.org>
 
 =item *
 
@@ -196,8 +196,3 @@ This is free software; you can redistribute it and/or modify it under
 the same terms as the Perl 5 programming language system itself.
 
 =cut
-
-
-__END__
-
-
